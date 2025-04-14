@@ -10,42 +10,68 @@
     <link rel="stylesheet" href="styles/main.css">
 
 </head>
-<body>
-    <h2> Hi!
-     Welcome to My Website.</h2> 
 
-    <p>Take a look around:</p>
+<header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="blogs/index.html">Blogs</a>
+        <a href="design/index.html">Design</a>
+        <a href="essays/index.html">Essays</a>
+        <a href="portfolio/index.html">Portfolio</a>
 
-<nav>
-    <ul>
-    <li>Homepage</li>
+    </nav>
+</header>
 
-<li> <a href="blogs/index.html"> Blogs</a> 
-</li>
+<div class="container">
 
-<li> <a href="essays/index.html"> Essays</a>
-</li>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            Storyboard Artist —<br>
+            Animator —<br>
+            Web developer —
+        </div>
+        <div class="hero-title">
+            Portfolio<span>work</span>
+        </div>
+    </section>
 
-<li><a href="design/index.html"> Design</a>
-</li>
-
-<li><a href="portfolio/index.html"> Portfolio</a>
-
-    </ul>
-</nav>
-
-<hr>
-
-<h2> 
-This Website will tell you all about me
-</h2>
-
-<img src="images/stardoodle.jpeg" alt="A picture of a star doodle" 
-title="Star Doodle">
-
-<footer>
-    Brought to you by Ntshembo Shilowa 2025
-</footer>
+            <!-- Quick Access Cards -->
+            <section class="quick-access">
+                <h2 class="section-title">Quick Access</h2>
+                <div class="card-container">
+                    <div class="card" onclick="location.href='blogs/index.html'">Blogs</div>
+                    <div class="card" onclick="location.href='portfolio/index.html'">Portfolio</div>
+                    <div class="card" onclick="location.href='design/index.html'">Design</div>
+                </div>
+            </section>
+    
+            <!-- About Section -->
+            <section class="about">
+                <h2 class="section-title">About</h2>
+                <div class="about-container">
+                    <div class="about-image"></div>
+                    <div class="about-text">
+                        <h3>Ntshembo Shilowa</h3>
+                        <p>University of Witwatersrand</p>
+                        <p>Johannesburg</p>
+                        <p>South Africa</p>
+                    </div>
+                </div>
+                <p class="about-bio">
+                    I'm Ntshembo, a 3rd year student studying BA Digital Arts at WITS. My majors include Animation and Interactive Media.
+                </p>
+            </section>
+    
+    
+    
+          </div>
+    
+        <!-- Footer -->
+        <footer style="text-align: center; padding: 20px 0; background-color: #f5f5f5; margin-top: 40px;">
+            Brought to you by Ntshembo Shilowa 2025
+        </footer>
+    
 
 </body>
 </html>
