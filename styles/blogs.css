@@ -36,7 +36,7 @@
   }
   
   nav a:hover {
-    color: #0066cc;
+    color: hsl(231, 12%, 70%);
     text-shadow: 0 0 10px rgba(0, 102, 204, 0.3);
   }
   
@@ -47,7 +47,7 @@
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #0066cc;
+    background-color: hsl(231, 12%, 70%);
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
@@ -122,6 +122,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: hsl(231, 12%, 70%);
+
   }
   
   .blog-content {
@@ -171,17 +173,7 @@
     flex-shrink: 0;
   }
   
-  .blog-tags {
-    display: flex;
-    gap: 5px;
-  }
-  
-  .blog-tag {
-    background-color: #f0f0f0;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 12px;
-  }
+
   
   /* Responsive Design */
   @media (max-width: 992px) {

@@ -79,7 +79,7 @@
   
   article button {
     font-family: "Roboto Mono", monospace;
-    background-color: #536DFE;
+    background-color: #7E7F9A;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -89,7 +89,7 @@
   }
   
   article button:hover {
-    background-color: #00E5FF;
+    background-color: hsl(231, 12%, 70%);
     color: #37474F;
   }
 

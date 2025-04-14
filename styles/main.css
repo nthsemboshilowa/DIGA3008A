@@ -35,7 +35,7 @@
   }
   
   nav a:hover {
-    color: #0066cc;
+    color: hsl(231, 12%, 70%);
   }
   
   nav a::after {
@@ -45,7 +45,7 @@
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #0066cc;
+    background-color: hsl(231, 12%, 70%);
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
