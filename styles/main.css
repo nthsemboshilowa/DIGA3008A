@@ -16,12 +16,13 @@
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 100;
+    border-bottom: 1px solid #eee;
   }
   
   nav {
     display: flex;
     justify-content: flex-end;
-    padding: 20px 40px;
+    padding: 15px 40px;
   }
   
   nav a {

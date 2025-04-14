@@ -1,0 +1,48 @@
+
+
+/* Base styling */
+body {
+    font-family: 'Roboto Mono', monospace;
+  background-color: #ECEFF1;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Blog Article Section */
+.h-entry {
+  background-color: #FFFFFF;
+  border: 2px solid #ECEFF1; /* Thickened outer border */
+  border-radius: 12px;
+  padding: 4rem;
+  box-shadow: 0 4px 10px rgba(55, 71, 79, 0.08);
+  text-align: left;
+  
+}
+
+article {
+    gap: 1rem;
+}
+
+.blog-article h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.75rem;
+  color: #37474F;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.blog-article p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+  color: #37474F;
+}
+
+.u-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #536DFE;
+  }
