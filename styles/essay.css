@@ -8,7 +8,7 @@
   body {
     line-height: 1.6;
     color: #333;
-    background-color: #fff;
+    background-color: #eee;
   }
   
   header {
@@ -36,7 +36,7 @@
   }
   
   nav a:hover {
-    color: hsl(231, 12%, 70%);
+    color: #0066cc;
     text-shadow: 0 0 10px rgba(0, 102, 204, 0.3);
   }
   
@@ -47,7 +47,7 @@
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: hsl(231, 12%, 70%);
+    background-color: #0066cc;
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
@@ -122,7 +122,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hsl(231, 12%, 70%);
   }
   
   .essay-content {
