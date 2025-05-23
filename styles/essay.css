@@ -104,8 +104,9 @@
     position: relative;
     width: 100%;
     height: 350px;
-    display: flex;
     flex-direction: column;
+    display: flex;
+    align-items: center; 
   }
   
   .essay-card:hover {
@@ -130,6 +131,7 @@
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    place-items: center;
   }
   
   .essay-author {
@@ -146,17 +148,23 @@
   .essay-title {
     font-weight: 500;
     margin-bottom: 5px;
+    place-items: center;
+    align-items: center;
   }
   
   .essay-description {
     color: #666;
     font-size: 14px;
+    place-items: center;
+    align-items: center;
   }
   
   .essay-text {
     margin-top: 15px;
     color: #444;
     flex-grow: 1;
+    place-items: center;
+    align-items: center;
   }
   
   .essay-footer {
@@ -171,7 +179,7 @@
     flex-shrink: 0;
   }
   
-  .blog-tags {
+  .essay-tags {
     display: flex;
     gap: 5px;
   }
@@ -181,6 +189,24 @@
     padding: 2px 8px;
     border-radius: 4px;
     font-size: 12px;
+  }
+  .essay-card button {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #8ad0fe;
+    color: white;
+    border: none;
+    padding: 1rem 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+margin-left: 30px;
+    
+  }
+  
+  .essay-card button:hover {
+    background-color: #2ca7f9;
+    color: #37474F;
   }
   
   /* Responsive Design */

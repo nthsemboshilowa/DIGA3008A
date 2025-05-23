@@ -11,7 +11,28 @@ body {
   background-color: #eee;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px; /* or right: 20px; if you prefer it on the right */
+  z-index: 1000;
+  padding: 0.75rem 1.5rem;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #fef68a;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
+.back-to-top:hover {
+  background-color: #e6da2b; 
+  color: #000000;
+  transform: scale(1.05);
+}
 header {
   position: sticky;
   top: 0;
