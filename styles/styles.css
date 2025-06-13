@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Rethink Sans", sans-serif;
+  }
+
+body{
+    /*Background colour of the website*/
+    background-color: #A40000;
+    color:white;
+
+}
+
+  header {
+    top: 0;
+    background-color: #F4C542;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    /*border-bottom: 1px solid #eee;*/
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 40px;
+  }
+  
+  nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #0066cc;
+  }
+  
+  nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #0066cc;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  nav a:hover::after {
+    transform: scaleX(1);
+  }
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    padding: 75px 0%;
+}
+
+.tape-image {
+  position: absolute;
+  top: 100px;
+  right: -450px;
+  transform: translateX(-50%);
+  z-index: -10;
+  transform: rotate(0deg);
+  padding: 20px;
+
+}
+.tape-image img {
+  width:40%;
+  height: auto;
+}
+
+.headerContainer h1{
+    display: flex;
+    padding-left: 10rem;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  padding: 50px 20px;
+  
+}
+
+.background-text {
+  position: relative;
+  z-index: 1;
+  font-size: 6.5rem;
+  line-height: 0.8;
+}
+
+.background-text h1 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.center-image {
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.center-image img {
+  width:100%;
+  height: auto;
+
+}
+
+.banner {
+  position: relative;
+  z-index: 3;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* About Me */
+
+.h-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  height: 450px;
+}
+
+/* This text will sit on top of the image */
+.text {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 100px;
+}
+
+
+.text h1 {
+  margin-bottom: 1rem;
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.about-heading {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.about-heading h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  color: #F4C542;
+  
+}
+
+.myInfo {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Image stays behind */
+.aboutMe-image {
+
+  position: relative;
+  z-index: 0;
+}
+
+.aboutMe-image img {
+  width: 100%;
+  height: auto;
+}
+
+/*Quick Access Feautures*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.explore-heading h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+    color: #F4C542;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+    align-items: flex-start;
+    
+}
+
+.menu-item {
+    
+  font-size: 3rem;
+  font-weight: bold;
+  color: #F4C542;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+  font-size: 6.5rem;
+  line-height: 0.8;
+  padding-right: 500px;
+}
+
+.arrow {
+  opacity: 0;
+  margin-left: 10px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu-item:hover .arrow {
+  opacity: 1;
+  transform: translateX(5px);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-style: italic;
+
+}
+
+.footer-image {
+  position: relative;
+  bottom: 10px;
+  z-index: 2;
+}
+
+.footer-image img {
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
